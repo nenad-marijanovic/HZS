@@ -1,0 +1,219 @@
+body {
+    margin: 2em auto;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+.listaNaslov{
+    font-size:35px;
+    color:white;
+    text-decoration: underline;
+}
+.listaTimovaMeni{
+    position:absolute;
+    left:45%;
+    top:5%;
+    width:50%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(40, 40, 40);
+}
+.active {
+    background-color:#24b28f;
+    color: rgb(40, 40, 40);
+}
+.activePocetna {
+    background-color:#24b28f;
+    color: rgb(40, 40, 40);
+    
+    border-radius: 20px 0px 0px 20px;
+}
+.activeZadnja {
+    background-color:#24b28f;
+    color: rgb(40, 40, 40);
+    border-radius: 0px 20px 20px 0px;
+}
+li {
+    width:20%;
+    float: left;
+    border: 1px solid #24b28f;
+}
+li a {
+    display: block;
+    color: #24b28f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li:last-child{
+    border-radius: 0px 20px 20px 0px;
+}
+li:first-child{
+    border-radius: 20px 0px 0px 20px;
+}
+li a:hover {
+    background-color: #111;
+    color:white;
+    font-style: none;
+    border-radius: 20px 20px 20px 20px;
+}
+
+form div {
+    margin-bottom: 0.5em;
+}
+
+form div label, form div input {
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+form {
+    width: 80%;
+    color: rgb(196, 196, 196);
+    padding: 2%;
+    position: relative;
+    left: 10%;
+}
+.btn-secondary {
+    background-color: rgb(56, 56, 56);
+    color: #24b28f;
+    text-align: center;
+    font-style: bold;
+    border: none;
+}
+.btn-secondary:hover {
+    background-color: rgb(56, 56, 56);
+    color: rgb(196, 196, 196);
+    border: none;
+}
+.btn-secondary:focus {
+    background-color: rgb(56, 56, 56);
+    color: rgb(196, 196, 196);
+    border: none;
+}
+
+.form-control {
+    background-color: #24b28f;
+    color:black;
+    border: none;
+}
+#output {
+    background-color: rgb(56, 56, 56);
+    border: none;
+    
+}
+.col-md-4 {
+    padding: 3%;
+}
+.clanoviTima {
+    background-color: #24b28f;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 2%;
+    margin: 2%;
+    width: 350px;
+    color:black;
+    font-size: 10px;
+    overflow: hidden;
+    text-align: left;
+    height: 250px;
+    border-radius: 8px 8px 8px 8px;
+    font-weight: bold;
+}
+.clanoviTimaLogin {
+    background-color:rgb(40, 40, 40);
+    display: inline-block;
+    border: 2px solid #24b28f;
+    padding: 2%;
+    margin: 2%;
+    width: 30%;
+    color: #24b28f;
+    font-size: 14px;
+    overflow: hidden;
+    text-align: left;
+    height: 450px;
+    border-radius: 10px 10px 10px 10px;
+}
+@media only screen and (min-width: 800px) {
+    .clanoviTima {
+        width: 40%;
+    }
+}
+
+.clanTima{
+    margin:2%;
+    width:20%;
+}
+#btnSend:hover{
+    transform: scale(1.2);
+}
+.clan{
+    width:25%;
+    height:25%;
+}
+.opisTima{
+    text-decoration: underline;
+    color: #24b28f;
+
+}
+.clanIme{
+    font-size: 20px;
+    font-style: italic;
+}
+.pocetnaMeni{
+    display: inline-block;
+}
+.artikl-poz{
+    /*float:left;*/
+}
+.idClana{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.prcl{
+    font-size:30px;
+}
+.timPodaci{
+    color:#24b28f;
+    font-size: 30px;
+    font-weight: bold;
+}
+.label{
+    text-decoration: underline;
+    color:white;
+    font-size: 15px;
+}
+.hakatonSlika{
+    width:50%;
+    align-content: center;
+    float:left;
+}
+.naslov{
+    font-family: "Century Gothic";
+    font-size:70px;
+    text-decoration: underline;
+    text-align:center;
+    color: #24b28f;
+}
+.tekstic{
+    color:black;
+    background-color:#24b28f;
+    border-radius: 20px;
+    padding:10px;
+    float:right;
+    font-size:25px;
+    font-style:italic;
+    text-align: center;
+}
+.hakatonLogo{
+    width:40%;
+    align-content: right;
+    float: right;
+}
+.dugmeUpdate{
+    font-size:10px;
+    color:black;
+}

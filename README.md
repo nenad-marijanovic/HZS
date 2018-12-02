@@ -1,2 +1,2 @@
-# HZS
+# MonadikotitaHZS
 Project for HZS

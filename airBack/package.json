@@ -1,0 +1,30 @@
+{
+  "name": "airback",
+  "version": "1.0.0",
+  "description": "Backend for Ticket reserving",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:back": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoryyy/airBack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shoryyy/airBack/issues"
+  },
+  "homepage": "https://github.com/shoryyy/airBack#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.41.2",
+    "sequelize-cli": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
